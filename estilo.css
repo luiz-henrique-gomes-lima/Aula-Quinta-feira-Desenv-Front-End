@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+}
+
+.box {
+    width: 96%;
+    border: 1px dashed black;
+}
+
+/* Área da imagem */
+.image {
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid green;
+}
+
+/* Área do texto */
+.texto {
+    width: 60%;
+    text-align: justify;
+}
+
+/* Imagem e texto lado a lado */
+.image, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Centraliza a imagem */
+img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Títulos */
+h3 {
+    color: blue;
+}
